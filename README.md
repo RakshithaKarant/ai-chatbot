@@ -41,15 +41,18 @@ python -m venv venv
 ```bash
 source venv/bin/activate
 ```
-4. Install required packages (`langchain`, `llama.cpp`, and `streamlit`):
+4. Download and install c++ build tools ([VS c++ build tools](https://visualstudio.microsoft.com/downloads/?q=build+tools)])
+```
+5. Install required packages (`langchain`, `llama.cpp`, and `streamlit`):
 ```bash
 pip install -r requirements.txt
 ```
-5. Start `streamlit`:
+
+6. Start `streamlit`:
 ```bash
 streamlit run main.py
 ```
-6. The `Mistral7b` quantized model from `huggingface` will be downloaded and cached locally from the following link:
+7. The `Mistral7b` quantized model from `huggingface` will be downloaded and cached locally from the following link:
 [mistral-7b-instruct-v0.1.Q4_0.gguf](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_0.gguf)
 
 # Screenshot
